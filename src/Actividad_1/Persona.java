@@ -75,7 +75,12 @@ public class Persona {
     }
 
     public String toString() {
-        return "\u001B[31m"+"Nombre: "+this.getNombre()+"\n"+"\u001B[31m"+"Apellido: "+this.getApellido()+"\n"+"\u001B[31m"+"Edad: "+this.getEdad()+"\n"+"\u001B[31m"+"Hobbie: "+this.getHobbie()+"\n"+"\u001B[31m"+"Editor de Codigo: "+this.getEditor_codigo()+"\n"+"\u001B[31m"+"Sistema Operativo: "+this.getSistema_operativo()+"\n";
+        return "\u001B[31m"+"Nombre: "+this.getNombre()+"\n"+
+                "\u001B[31m"+"Apellido: "+this.getApellido()+"\n"+
+                "\u001B[31m"+"Edad: "+this.getEdad()+"\n"+
+                "\u001B[31m"+"Hobbie: "+this.getHobbie()+"\n"+
+                "\u001B[31m"+ "Editor de Codigo: "+this.getEditor_codigo()+"\n"+
+                "\u001B[31m"+"Sistema Operativo: "+this.getSistema_operativo()+"\n";
     }
     
     
